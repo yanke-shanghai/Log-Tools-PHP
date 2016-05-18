@@ -9,7 +9,7 @@ Log-Tools-PHP
 使用说明
 --------
 ###接口解释
-```
+```php
     //落调试日志
     public function debug_log($s_log) {
         $this->write_log($s_log, 0); 
